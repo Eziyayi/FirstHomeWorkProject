@@ -27,6 +27,9 @@ public class BaseTest {
     protected static ExtentTest extentLogger;
     WebDriverWait wait;
 
+
+
+
     @BeforeTest
     public void beforeTest(){
         reports = new ExtentReports();
